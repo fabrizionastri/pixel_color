@@ -1,15 +1,16 @@
 [project]
-name = "pixel-color"
+name = "pixcol"
 version = "0.1.0"
-description = "Add your description here"
+description = "Fab's Pixel Color"
 authors = [
-    { name = "Fabrizio", email = "fabrizio.nastri@flexup.org" }
+    { name = "Fabrizio Nastri"}
 ]
 dependencies = [
     "pyautogui>=0.9.54",
     "pillow>=11.0.0",
     "keyboard>=0.13.5",
     "pyperclip>=1.9.0",
+    "pyinstaller>=6.11.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
